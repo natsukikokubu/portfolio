@@ -3,7 +3,7 @@ import { Header } from "@/components";
 
 export default function Home() {
   return (
-    <main>
+    <main className="font-body">
       <Header />
     </main>
   );

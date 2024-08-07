@@ -6,6 +6,9 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      body: ['"Noto Sans JP"', "sans-serif"],
+    },
     extend: {},
   },
   plugins: [],
