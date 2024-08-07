@@ -1,7 +1,7 @@
-const Header = () => {
+export const Header = () => {
   return (
-    <header>
-      <h1>natsuki's portfolio</h1>
+    <header className="flex justify-center h-40 w-1000 bg-blue-600">
+      <h1 className="text-2xl bg-gray-400">natsuki's portfolio</h1>
       <nav>
         <ul>
           <li>
