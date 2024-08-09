@@ -7,6 +7,7 @@ export default function Home() {
       <Header />
       <div className="h-80 bg-slate-400">
         <h1 id="top">About me</h1>
+        <img src="" />
       </div>
       <div className="h-80 bg-slate-500">
         <h1 id="works">Works</h1>
