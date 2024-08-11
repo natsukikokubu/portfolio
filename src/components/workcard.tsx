@@ -1,4 +1,3 @@
-import { url } from "inspector";
 import React from "react";
 
 type WorkCardProps = {
@@ -6,7 +5,6 @@ type WorkCardProps = {
   description: string;
   img: string;
   link: string;
-  comment: string;
 };
 
 export const WorkCard: React.FC<WorkCardProps> = ({
@@ -14,14 +12,17 @@ export const WorkCard: React.FC<WorkCardProps> = ({
   description,
   img,
   link,
-  comment,
 }) => {
   return (
-    <div>
+    <div className=" h-60 w-100 p-4">
       <h2>{title}</h2>
-      <p>{description}</p>
-      <img className="max-w-xs max-h-xs" src={img} />
-      <a href={link}>{comment}</a>
+      <p className="mb-2">{description}</p>
+      <a target="_blank" href={link}>
+        <img
+          className="rounded-xl w-60 h-36 shadow-md shadow-gray-300 hover:shadow-gray-100"
+          src={img}
+        />
+      </a>
     </div>
   );
 };

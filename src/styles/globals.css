@@ -1,3 +1,12 @@
+.font-color {
+  color: ;
+}
+
+.h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
