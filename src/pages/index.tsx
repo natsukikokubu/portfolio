@@ -77,22 +77,6 @@ export default function Home() {
               link="https://book-app-jade-iota.vercel.app/"
             />
           </li>
-          <li>
-            <WorkCard
-              title="日記アプリ"
-              description="日記を書いて保存できるアプリです。"
-              img="/diaryApp.png"
-              link="https://new-diary-app-sc1j.vercel.app/"
-            />
-          </li>
-          <li>
-            <WorkCard
-              title="日記アプリ"
-              description="日記を書いて保存できるアプリです。"
-              img="/diaryApp.png"
-              link="https://new-diary-app-sc1j.vercel.app/"
-            />
-          </li>
         </ul>
       </section>
       <section className="relative flex flex-col items-center h-80  bg-gray-900 text-blue-100">
