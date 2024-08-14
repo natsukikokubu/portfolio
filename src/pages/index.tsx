@@ -83,13 +83,27 @@ export default function Home() {
         <h1 className="text-lg font-bold my-16  mb-12" id="contact">
           Contact
         </h1>
-        <div className="flex flex-col items-center z-30">
+        <div className="flex flex-right items-center justify-between gap-16 z-30">
           <a
             href="https://x.com/na_u0801"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img className="object-contain w-8" src="/logo-white.png" />
+          </a>
+          <a
+            href="https://github.com/natsukikokubu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="object-contain w-8" src="/github-mark-white.png" />
+          </a>
+          <a
+            href="https://www.wantedly.com/id/kokubu_natsuki"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="object-contain w-12" src="/Wantedly_Mark_Wht.png" />
           </a>
         </div>
       </section>
