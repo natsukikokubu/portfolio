@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Header } from "@/components";
-import { WorkCard } from "@/components";
+import { Header, WorkCard } from "@/components";
 
 export default function Home() {
   return (
