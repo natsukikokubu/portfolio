@@ -34,9 +34,9 @@ export default function Home() {
           <div className="ml-4 mt-2">
             <dt className="inline whitespace-nowrap">経歴 :</dt>
             <dd className="inline ml-3 break-all">
-              東京医科大学八王子医療センター: 看護師2年(ICU)、
+              大学病院: 看護師2年(ICU)、
               <br />
-              国際医療福祉大学三田病院: 看護師2年(ICU、救急、透析、内視鏡)
+              大学病院: 看護師2年(ICU、救急、透析、内視鏡)
             </dd>
           </div>
           <div className="ml-4 mt-2">
