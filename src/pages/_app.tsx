@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { useCallback } from "react";
-import { Container, Engine } from "tsparticles-engine";
+import { Container, Engine, IOptions } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import template from "@/assets/particlesjs-config.json";
