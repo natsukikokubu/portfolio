@@ -72,7 +72,7 @@ export default function Home() {
             <WorkCard
               title="読書記録アプリ"
               description="読書記録を保存できるアプリです。"
-              img="/bookapp.png"
+              img="/bookApp.png"
               link="https://book-app-jade-iota.vercel.app/"
             />
           </li>
