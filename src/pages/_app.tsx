@@ -1,13 +1,13 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import { useCallback } from "react";
-import { Container, Engine, IOptions } from "tsparticles-engine";
+import { ComponentProps, useCallback } from "react";
+import { Container, Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import template from "@/assets/particlesjs-config.json";
 
 export default function App({ Component, pageProps }: AppProps) {
-  const params = template as typeof template;
+  const params = template as ComponentProps<typeof Particles>["options"];
   const particlesInit = useCallback(async (engine: Engine) => {
     await loadSlim(engine);
   }, []);
@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
-        options={params as any}
+        options={params}
       />
     </>
   );
