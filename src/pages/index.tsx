@@ -104,6 +104,13 @@ export default function Home() {
           >
             <img className="object-contain w-12" src="/Wantedly_Mark_Wht.png" />
           </a>
+          <a
+            href="https://qiita.com/t_natsuki"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="object-contain w-10" src="/qiita-white.png" />
+          </a>
         </div>
       </section>
     </main>
