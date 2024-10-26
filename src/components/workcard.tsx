@@ -14,9 +14,9 @@ export const WorkCard: React.FC<WorkCardProps> = ({
   link,
 }) => {
   return (
-    <div className="bg-white bg-opacity-5 rounded-xl h-60 w-100 p-4 z-30 ">
-      <h2 className="m-auto">{title}</h2>
-      <p className="mb-2 m-auto">{description}</p>
+    <div className="bg-white bg-opacity-10 rounded-xl w-100 px-4 pt-4 pb-6 z-30">
+      <h2 className="m-auto mb-1 text-sm text-slate-100">{title}</h2>
+      <p className="mb-2 m-auto text-xs text-slate-300">{description}</p>
       <a target="_blank" href={link}>
         <img
           className="rounded-xl w-60 h-36 m-auto hover:opacity-80"

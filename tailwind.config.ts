@@ -7,9 +7,13 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      body: ['"Noto Sans JP"', "sans-serif"],
+      body: ["Futura", '"Noto Sans JP"', "sans-serif"],
     },
-    extend: {},
+    extend: {
+      spacing: {
+        100: "25rem",
+      },
+    },
   },
   plugins: [],
 };

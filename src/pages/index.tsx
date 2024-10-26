@@ -18,7 +18,7 @@ export default function Home() {
           className="z-30"
         />
         <p className="pt-2 pb-4">Tachibana Natsuki</p>
-        <div className="flex flex-col m-4  sm:ml-4">
+        <div className="flex flex-col m-4 sm:ml-4">
           <div className="ml-4 mt-2">
             <dt className="inline whitespace-nowrap">生年月日 :</dt>
             <dd className="inline ml-3 break-all">1998年11月13日(25歳)</dd>
@@ -34,15 +34,15 @@ export default function Home() {
           <div className="ml-4 mt-2">
             <dt className="inline whitespace-nowrap">経歴 :</dt>
             <dd className="inline ml-3 break-all">
-              大学病院: 看護師2年(ICU)、
+              大学病院の看護師2年(ICU)
               <br />
-              大学病院: 看護師2年(ICU、救急、透析、内視鏡)
+              大学病院の看護師2年(ICU、救急、透析、内視鏡)
             </dd>
           </div>
           <div className="ml-4 mt-2">
             <dt className="inline whitespace-nowrap">ITスキル :</dt>
             <dd className="inline ml-3 break-all">
-              HTML,CSS,Javascript,Typescript,React,Next.js,Github
+              HTML,CSS,JavaScript,TypeScript,React,Next.js,Github
             </dd>
           </div>
           <div className="ml-4 mt-2">
@@ -74,6 +74,22 @@ export default function Home() {
               description="読書記録を保存できるアプリです。"
               img="/BookApp.png"
               link="https://book-app-jade-iota.vercel.app/"
+            />
+          </li>
+          <li>
+            <WorkCard
+              title="Supabase/Next.js/Prismaで簡単な日記アプリケーションを作って公開してみた"
+              description="日記アプリの記事"
+              img="usagi.png"
+              link="https://qiita.com/t_natsuki/items/3a15a545e4e837797e8e"
+            />
+          </li>
+          <li>
+            <WorkCard
+              title="Qiita記事"
+              description="このポートフォリオの記事"
+              img="hiyoko.png"
+              link="https://qiita.com/t_natsuki/items/38b5facb410f0d5c5d10"
             />
           </li>
         </ul>
@@ -109,7 +125,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img className="object-contain w-10" src="/qiita-white.png" />
+            <img className="object-contain w-9" src="/qiita-white.png" />
           </a>
         </div>
       </section>
