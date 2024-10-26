@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import { Header, WorkCard } from "@/components";
+import Layout from "./layout";
 
 export default function Home() {
   return (
-    <main className="font-body bg-gray-900 z-50">
-      <Header />
-      <section className="flex flex-col items-center  py-16 h-140 bg-gray-900 text-blue-100">
+    <Layout>
+      <section className="flex flex-col items-center py-16 h-140 text-blue-100">
         <h1 className="text-lg font-bold my-4" id="top">
           About me
         </h1>
@@ -18,7 +18,7 @@ export default function Home() {
           className="z-30"
         />
         <p className="pt-2 pb-4">Tachibana Natsuki</p>
-        <div className="flex flex-col m-4 sm:ml-4">
+        <div className="flex flex-col sm:ml-4">
           <div className="ml-4 mt-2">
             <dt className="inline whitespace-nowrap">生年月日 :</dt>
             <dd className="inline ml-3 break-all">1998年11月13日(25歳)</dd>
@@ -59,7 +59,7 @@ export default function Home() {
         <h1 className=" text-lg font-bold my-8 mb-8" id="works">
           Works
         </h1>
-        <ul className=" grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-8 z-30">
+        <ul className=" grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-8 z-30 px-2">
           <li>
             <WorkCard
               title="日記アプリ"
@@ -86,7 +86,7 @@ export default function Home() {
           </li>
           <li>
             <WorkCard
-              title="Qiita記事"
+              title="Next.js/TypeScriptでportfolio作ってみた"
               description="このポートフォリオの記事"
               img="hiyoko.png"
               link="https://qiita.com/t_natsuki/items/38b5facb410f0d5c5d10"
@@ -129,6 +129,6 @@ export default function Home() {
           </a>
         </div>
       </section>
-    </main>
+    </Layout>
   );
 }

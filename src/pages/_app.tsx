@@ -12,22 +12,12 @@ export default function App({ Component, pageProps }: AppProps) {
     await loadSlim(engine);
   }, []);
 
-  const particlesLoaded = useCallback(
-    async (container: Container | undefined) => {
-      await console.log(container);
-    },
-    []
-  );
-
   return (
     <>
       <Component {...pageProps} />
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        loaded={particlesLoaded}
-        options={params}
-      />
+      <div>
+        <Particles id="tsparticles" init={particlesInit} options={params} />
+      </div>
     </>
   );
 }
