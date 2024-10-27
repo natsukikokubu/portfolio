@@ -18,21 +18,59 @@ export default function Home() {
           className="z-30"
         />
         <p className="pt-2 pb-4">Tachibana Natsuki</p>
-        <div className="flex flex-col sm:ml-4">
-          <div className="ml-4 mt-2">
-            <dt className="inline whitespace-nowrap">生年月日 :</dt>
+        <div className="flex flex-col lg:mx-20 sm:mx-10  z-10">
+          <table>
+            <tbody>
+              <tr>
+                <th className="w-32">生年月日</th>
+                <td>1998年11月13日</td>
+              </tr>
+              <tr>
+                <th className="w-32">出身</th>
+                <td>栃木</td>
+              </tr>
+
+              <tr>
+                <th className="w-32">経歴</th>
+                <td>
+                  大学病院などで看護師としてICU・救急・内視鏡にて4年ほど勤務しました。
+                  現在はITで医療業界などのDX化に携わりたいという思いから、エンジニアとして転職するべく独学で勉強に励んでいます。
+                </td>
+              </tr>
+
+              <tr>
+                <th className="w-32">ITスキル</th>
+                <td>
+                  HTML/CSS（調べながら簡単なWebサイト制作ができる程度）、JavaScript/TypeScript（簡単なアプリが作れる程度）、React/Next.js（簡単なアプリが作れる程度）、Github（基本的な操作ができる程度）
+                </td>
+              </tr>
+
+              <tr>
+                <th className="w-32">趣味</th>
+                <td>読書、ヨガ、勉強</td>
+              </tr>
+
+              <tr>
+                <th className="w-32">好きな動物</th>
+                <td>うさぎ</td>
+              </tr>
+            </tbody>
+          </table>
+
+          {/* <div className="ml-4 mt-2">
+            <dt className="inline whitespace-nowrap">生年月日</dt>
             <dd className="inline ml-3 break-all">1998年11月13日(25歳)</dd>
           </div>
           <div className="ml-4 mt-2">
-            <dt className="inline whitespace-nowrap">趣味 :</dt>
+            <dt className="inline whitespace-nowrap">趣味</dt>
             <dd className="inline ml-3 break-all">読書、ヨガ、勉強</dd>
           </div>
           <div className="ml-4 mt-2">
-            <dt className="inline whitespace-nowrap">好きな動物 :</dt>
+            <dt className="inline whitespace-nowrap">好きな動物</dt>
             <dd className="inline ml-3 break-all">うさぎ</dd>
           </div>
           <div className="ml-4 mt-2">
-            <dt className="inline whitespace-nowrap">経歴 :</dt>
+            <dt className="inline whitespace-nowrap">経歴</dt>
             <dd className="inline ml-3 break-all">
               大学病院の看護師2年(ICU)
               <br />
@@ -40,19 +78,19 @@ export default function Home() {
             </dd>
           </div>
           <div className="ml-4 mt-2">
-            <dt className="inline whitespace-nowrap">ITスキル :</dt>
+            <dt className="inline whitespace-nowrap">ITスキル</dt>
             <dd className="inline ml-3 break-all">
               HTML,CSS,JavaScript,TypeScript,React,Next.js,Github
             </dd>
           </div>
           <div className="ml-4 mt-2">
-            <dt className="inline whitespace-nowrap">ひとこと :</dt>
+            <dt className="inline whitespace-nowrap">ひとこと</dt>
             <dd className="inline ml-3 break-all">
               新しいことを学ぶのが好きで、働きながらプログラミングをしてました。
               <br />
               ITと医療で世の中に貢献していきたいです。
             </dd>
-          </div>
+          </div> */}
         </div>
       </section>
       <section className="relative flex flex-col items-center bg-gray-900 text-blue-100">
