@@ -18,41 +18,41 @@ export default function Home() {
           className="z-30"
         />
         <p className="pt-2 pb-4">Tachibana Natsuki</p>
-        <div className="flex flex-col lg:mx-20 sm:mx-10  z-10">
+        <div className="flex flex-col mx-4 md:mx-10 z-10">
           <table>
-            <tbody>
+            <tbody className="text-sm">
               <tr>
-                <th className="w-32">生年月日</th>
-                <td>1998年11月13日</td>
+                <th className="w-1/4 md:w-32">生年月日</th>
+                <td className="py-2 text-slate-300">1998年11月13日</td>
               </tr>
               <tr>
-                <th className="w-32">出身</th>
-                <td>栃木</td>
+                <th className="w-1/4 md:w-32">出身</th>
+                <td className="py-2 text-slate-300">栃木</td>
               </tr>
-
               <tr>
-                <th className="w-32">経歴</th>
-                <td>
-                  大学病院などで看護師としてICU・救急・内視鏡にて4年ほど勤務しました。
-                  現在はITで医療業界などのDX化に携わりたいという思いから、エンジニアとして転職するべく独学で勉強に励んでいます。
+                <th className="w-1/4 md:w-32">経歴</th>
+                <td className="py-2 text-slate-300">
+                  大学病院などで看護師としてICU・救急・内視鏡にて4年ほど勤務しました。現在はITで医療業界などのDX化に携わりたいという思いから、エンジニアとして転職するべく独学で勉強に励んでいます。
                 </td>
               </tr>
-
               <tr>
-                <th className="w-32">ITスキル</th>
-                <td>
-                  HTML/CSS（調べながら簡単なWebサイト制作ができる程度）、JavaScript/TypeScript（簡単なアプリが作れる程度）、React/Next.js（簡単なアプリが作れる程度）、Github（基本的な操作ができる程度）
+                <th className="w-1/4 md:w-32">ITスキル</th>
+                <td className="py-2 text-slate-300">
+                  HTML/CSS, JavaScript/TypeScript, React, Next.js, GitHub
+                  は独学で学び、基本的な知識があります。
                 </td>
               </tr>
-
               <tr>
-                <th className="w-32">趣味</th>
-                <td>読書、ヨガ、勉強</td>
+                <th className="w-1/4 md:w-32">趣味</th>
+                <td className="py-2 text-slate-300">読書、ヨガ、勉強</td>
               </tr>
-
               <tr>
-                <th className="w-32">好きな動物</th>
+                <th className="w-1/4 md:w-32">好きな動物</th>
                 <td>うさぎ</td>
+              </tr>
+              <tr>
+                <th className="w-1/4 md:w-32">好きなアニメ</th>
+                <td>チ。</td>
               </tr>
             </tbody>
           </table>
